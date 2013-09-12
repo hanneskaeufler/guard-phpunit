@@ -179,7 +179,7 @@ module Guard
           cmd_parts = []
           cmd_parts << command
           cmd_parts << "--include-path #{formatter_path}"
-          cmd_parts << "--printer PHPUnit_Extensions_Progress_ResultPrinter"
+          #cmd_parts << "--printer PHPUnit_Extensions_Progress_ResultPrinter"
           cmd_parts << options[:cli] if options[:cli]
           cmd_parts << path
 
